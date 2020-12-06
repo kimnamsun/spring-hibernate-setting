@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kr.creativesoft.springhibernate.config;
+package kr.kimnamsun.springhibernate.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -15,13 +15,9 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-/**
- *
- * @author seungkim
- */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "kr.creativesoft.springhibernate.controller" })
+@ComponentScan(basePackages = { "kr.kimnamsun.springhibernate.controller" })
 public class WebMvcContextConfiguration extends WebMvcConfigurerAdapter{
 
     @Override

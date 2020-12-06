@@ -3,18 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kr.creativesoft.springhibernate.config;
+package kr.kimnamsun.springhibernate.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-/**
- *
- * @author seungkim
- */
-
 @Configuration
-@ComponentScan(basePackages = { "kr.creativesoft.springhibernate.dao",  "kr.creativesoft.springhibernate.service"})
+@ComponentScan(basePackages = { "kr.kimnamsun.springhibernate.dao",  "kr.kimnamsun.springhibernate.service"})
 //@Import({ DBConfig.class })
 public class ApplicationConfig {
 
