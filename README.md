@@ -2,6 +2,7 @@
 spring hibernate default setting
 <br><br>
 ## Directory Tree
+<pre>
 ├─java
 │  └─kr
 │      └─kimnamsun
@@ -16,3 +17,4 @@ spring hibernate default setting
         │  
         └─views
                 index.jsp
+</pre>
